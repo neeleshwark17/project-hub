@@ -256,16 +256,6 @@ npm test
 
 This project is licensed under the MIT License.
 
-## 🆘 Support
-
-If you encounter any issues:
-
-1. Check the troubleshooting section in `DEPLOYMENT.md`
-2. Verify your environment variables
-3. Ensure PostgreSQL is running
-4. Check the browser console for frontend errors
-5. Check Django logs for backend errors
-
 ## 📊 Sample Data
 
 After importing the data backup, you'll have:
