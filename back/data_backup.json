@@ -1,0 +1,696 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add organization",
+    "content_type": 7,
+    "codename": "add_organization"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change organization",
+    "content_type": 7,
+    "codename": "change_organization"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete organization",
+    "content_type": 7,
+    "codename": "delete_organization"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view organization",
+    "content_type": 7,
+    "codename": "view_organization"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add project",
+    "content_type": 8,
+    "codename": "add_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change project",
+    "content_type": 8,
+    "codename": "change_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete project",
+    "content_type": 8,
+    "codename": "delete_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view project",
+    "content_type": 8,
+    "codename": "view_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add task",
+    "content_type": 9,
+    "codename": "add_task"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change task",
+    "content_type": 9,
+    "codename": "change_task"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete task",
+    "content_type": 9,
+    "codename": "delete_task"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view task",
+    "content_type": 9,
+    "codename": "view_task"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add task comment",
+    "content_type": 10,
+    "codename": "add_taskcomment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change task comment",
+    "content_type": 10,
+    "codename": "change_taskcomment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete task comment",
+    "content_type": 10,
+    "codename": "delete_taskcomment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view task comment",
+    "content_type": 10,
+    "codename": "view_taskcomment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "organizations",
+    "model": "organization"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "organizations",
+    "model": "project"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "organizations",
+    "model": "task"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "organizations",
+    "model": "taskcomment"
+  }
+},
+{
+  "model": "organizations.organization",
+  "pk": 1,
+  "fields": {
+    "name": "Demo Organization",
+    "slug": "demo-org",
+    "contact_email": "admin@demo.com",
+    "created_at": "2025-08-31T12:16:15.179Z",
+    "updated_at": "2025-08-31T12:16:15.180Z"
+  }
+},
+{
+  "model": "organizations.project",
+  "pk": 2,
+  "fields": {
+    "organization": 1,
+    "name": "Frontend Test Project",
+    "description": "This project was created via API test",
+    "status": "active",
+    "due_date": null,
+    "created_at": "2025-08-31T12:18:12.125Z",
+    "updated_at": "2025-08-31T12:18:12.125Z"
+  }
+},
+{
+  "model": "organizations.project",
+  "pk": 3,
+  "fields": {
+    "organization": 1,
+    "name": "Updated Test Project",
+    "description": "Updated description",
+    "status": "active",
+    "due_date": "2024-02-15",
+    "created_at": "2025-08-31T12:23:46.075Z",
+    "updated_at": "2025-08-31T12:58:00.426Z"
+  }
+},
+{
+  "model": "organizations.project",
+  "pk": 4,
+  "fields": {
+    "organization": 1,
+    "name": "Mobile App Development",
+    "description": "Native iOS and Android apps for customer engagement",
+    "status": "planning",
+    "due_date": "2024-03-01",
+    "created_at": "2025-08-31T12:23:46.076Z",
+    "updated_at": "2025-08-31T12:23:46.076Z"
+  }
+},
+{
+  "model": "organizations.project",
+  "pk": 5,
+  "fields": {
+    "organization": 1,
+    "name": "Data Migration",
+    "description": "Migrate customer data from legacy system to new platform",
+    "status": "completed",
+    "due_date": "2024-01-15",
+    "created_at": "2025-08-31T12:23:46.077Z",
+    "updated_at": "2025-08-31T12:23:46.077Z"
+  }
+},
+{
+  "model": "organizations.project",
+  "pk": 6,
+  "fields": {
+    "organization": 1,
+    "name": "Marketing Campaign Q1",
+    "description": "Launch comprehensive marketing strategy for Q1 product releases",
+    "status": "active",
+    "due_date": "2024-03-31",
+    "created_at": "2025-08-31T12:23:46.078Z",
+    "updated_at": "2025-08-31T12:58:15.648Z"
+  }
+},
+{
+  "model": "organizations.project",
+  "pk": 7,
+  "fields": {
+    "organization": 1,
+    "name": "Test Project",
+    "description": "Description is waste of my time",
+    "status": "active",
+    "due_date": "2025-09-04",
+    "created_at": "2025-08-31T12:40:42.327Z",
+    "updated_at": "2025-08-31T13:15:22.055Z"
+  }
+},
+{
+  "model": "organizations.task",
+  "pk": 1,
+  "fields": {
+    "project": 3,
+    "title": "Design new homepage layout",
+    "description": "Create wireframes and mockups for the new homepage design",
+    "status": "completed",
+    "priority": "medium",
+    "assignee_email": "sarah@demo.com",
+    "due_date": "2024-01-25",
+    "created_at": "2025-08-31T12:23:46.079Z",
+    "updated_at": "2025-08-31T12:23:46.079Z"
+  }
+},
+{
+  "model": "organizations.task",
+  "pk": 2,
+  "fields": {
+    "project": 3,
+    "title": "Implement responsive navigation",
+    "description": "Code the mobile-responsive navigation component",
+    "status": "in_progress",
+    "priority": "medium",
+    "assignee_email": "john@demo.com",
+    "due_date": "2024-01-28",
+    "created_at": "2025-08-31T12:23:46.080Z",
+    "updated_at": "2025-08-31T12:23:46.080Z"
+  }
+},
+{
+  "model": "organizations.task",
+  "pk": 3,
+  "fields": {
+    "project": 3,
+    "title": "Set up analytics tracking",
+    "description": "Configure Google Analytics and custom event tracking",
+    "status": "todo",
+    "priority": "medium",
+    "assignee_email": "mike@demo.com",
+    "due_date": "2024-02-05",
+    "created_at": "2025-08-31T12:23:46.080Z",
+    "updated_at": "2025-08-31T12:23:46.080Z"
+  }
+},
+{
+  "model": "organizations.task",
+  "pk": 4,
+  "fields": {
+    "project": 3,
+    "title": "Content review and optimization",
+    "description": "Review all website content for SEO and readability",
+    "status": "blocked",
+    "priority": "medium",
+    "assignee_email": "sarah@demo.com",
+    "due_date": "2024-01-30",
+    "created_at": "2025-08-31T12:23:46.081Z",
+    "updated_at": "2025-08-31T12:23:46.081Z"
+  }
+},
+{
+  "model": "organizations.task",
+  "pk": 5,
+  "fields": {
+    "project": 4,
+    "title": "iOS app architecture planning",
+    "description": "Define the overall architecture and tech stack for the iOS application",
+    "status": "in_progress",
+    "priority": "medium",
+    "assignee_email": "john@demo.com",
+    "due_date": "2024-01-26",
+    "created_at": "2025-08-31T12:23:46.082Z",
+    "updated_at": "2025-08-31T12:23:46.082Z"
+  }
+},
+{
+  "model": "organizations.task",
+  "pk": 6,
+  "fields": {
+    "project": 4,
+    "title": "User research and interviews",
+    "description": "Conduct user interviews to understand mobile app requirements",
+    "status": "todo",
+    "priority": "medium",
+    "assignee_email": "sarah@demo.com",
+    "due_date": "2024-02-01",
+    "created_at": "2025-08-31T12:23:46.082Z",
+    "updated_at": "2025-08-31T12:23:46.082Z"
+  }
+},
+{
+  "model": "organizations.task",
+  "pk": 7,
+  "fields": {
+    "project": 6,
+    "title": "Destroy the prod DB",
+    "description": "Yes just do it",
+    "status": "todo",
+    "priority": "medium",
+    "assignee_email": "neels@gmail.com",
+    "due_date": "2025-08-30",
+    "created_at": "2025-08-31T13:20:29.370Z",
+    "updated_at": "2025-08-31T13:20:29.370Z"
+  }
+},
+{
+  "model": "organizations.taskcomment",
+  "pk": 1,
+  "fields": {
+    "task": 1,
+    "content": "Great work on the initial designs! The layout looks clean and modern.",
+    "author_email": "john@demo.com",
+    "timestamp": "2025-08-31T12:23:46.083Z"
+  }
+},
+{
+  "model": "organizations.taskcomment",
+  "pk": 2,
+  "fields": {
+    "task": 1,
+    "content": "Should we consider adding a dark mode toggle to the navigation?",
+    "author_email": "mike@demo.com",
+    "timestamp": "2025-08-31T12:23:46.084Z"
+  }
+},
+{
+  "model": "organizations.taskcomment",
+  "pk": 3,
+  "fields": {
+    "task": 1,
+    "content": "Dark mode is a great idea! I'll include it in the next iteration.",
+    "author_email": "sarah@demo.com",
+    "timestamp": "2025-08-31T12:23:46.085Z"
+  }
+},
+{
+  "model": "organizations.taskcomment",
+  "pk": 4,
+  "fields": {
+    "task": 2,
+    "content": "Working on the mobile breakpoints. Should be ready for review by tomorrow.",
+    "author_email": "john@demo.com",
+    "timestamp": "2025-08-31T12:23:46.085Z"
+  }
+},
+{
+  "model": "organizations.taskcomment",
+  "pk": 5,
+  "fields": {
+    "task": 4,
+    "content": "Blocked waiting for content team to finalize the copy. ETA is Friday.",
+    "author_email": "sarah@demo.com",
+    "timestamp": "2025-08-31T12:23:46.086Z"
+  }
+},
+{
+  "model": "organizations.taskcomment",
+  "pk": 6,
+  "fields": {
+    "task": 4,
+    "content": "Can we schedule a technical review meeting for next week?",
+    "author_email": "mike@demo.com",
+    "timestamp": "2025-08-31T12:23:46.087Z"
+  }
+}
+]
